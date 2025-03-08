@@ -73,13 +73,13 @@ function Banner() {
           </div>
 
           {/* Button */}
-          <button
+         {/* <button
             className="text-gray-400 bg-black btn btn-active font-bold btn-neutral mt-6 dark:text-black dark:bg-gray-600 dark:hover:bg-yellow-500 dark:hover:text-black hover:bg-yellow-500 hover:text-black"
             onClick={() => submitFeedback({ query })}
             disabled={isSubmitting} // Disable the button during submission
           >
             {isSubmitting ? "Submitting..." : "POW!! POW!!!"}
-          </button>
+          </button> */}
         </div>
 
         {/* Right */}
