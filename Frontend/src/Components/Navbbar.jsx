@@ -72,7 +72,7 @@ function Navbbar() {
   return (
       <>
     <div className={`bg-white max-w-screen-2xl mx-auto md:px-20 px-4 fixed top-0 left-0 right-0 dark:bg-gray-500 dark:text-gray-500  ${
-      sticky?"sticky-navbar shadow-md bg-yellow-500 dark:bg-gray-700 duration-700 mt-2 rounded-2xl transition-all ease-in-out": " " }
+      sticky?"sticky-navbar z-10 shadow-md bg-yellow-500 dark:bg-gray-700 duration-700 mt-2 rounded-2xl transition-all ease-in-out": " " }
       `}>
       <div className="navbar ">
   <div className="navbar-start"> 
