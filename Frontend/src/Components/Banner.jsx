@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import banner from '/Banner.jpg';
+import banner from '/Banner.webp';
 import Login from './Login';
 import toast from 'react-hot-toast';
 import axios from 'axios';
